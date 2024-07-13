@@ -22,7 +22,7 @@ public class TTFortuneWheel: UIControl, CAAnimationDelegate, SpinningAnimatorPro
     
     /// Set this to start drawing from that offset
     /// The sliced centerd to this offset will be 0 indexed one
-    open var initialDrawingOffset:CGFloat = 0.0
+    open var initialDrawingOffset:CGFloat = -90
     
     open var titleRotation:CGFloat = 0.0
     
